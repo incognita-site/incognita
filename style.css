@@ -1,0 +1,76 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #0d0d1a, #000);
+  color: white;
+}
+
+.glow {
+  text-align: center;
+  font-size: 3em;
+  color: #00f0ff;
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #111;
+  border: 1px solid #00f0ff;
+  color: #00f0ff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00f0ff;
+  color: #000;
+}
+
+canvas {
+  margin-top: 20px;
+  background: #111;
+  border: 2px solid #00f0ff;
+  border-radius: 50%;
+}
+
+
+.referral-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.stat-label {
+    margin-top: 5px;
+    font-size: 1em;
+    opacity: 0.8;
+}

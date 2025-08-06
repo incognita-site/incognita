@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INCOGNITA</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <h1 class="glow">INCOGNITA</h1>
+    <canvas id="wheel" width="300" height="300"></canvas>
+    <button onclick="spin()">Крутить рулетку</button>
+    <p id="result"></p>
+    <button onclick="share()">Пригласить друзей</button>
+  </div>
+
+  <script src="script.js"></script>
+
+<div class="referral-stats">
+    <div class="stat-box">
+        <span id="total-users" class="stat-number">-</span>
+        <div class="stat-label">Всего пользователей</div>
+    </div>
+
+    <div class="stat-box">
+        <span id="total-referrals" class="stat-number">-</span>
+        <div class="stat-label">Рефералов</div>
+    </div>
+</div>
+
+</body>
+</html>
